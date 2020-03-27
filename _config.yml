@@ -4,16 +4,17 @@ SEOTitle: 舒蕾的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: 15995213195@163.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 舒蕾的博客, gongshulei, 龚舒蕾, Java, 刷题"
+keyword: "BY, BY Blog, 舒蕾的博客, Java"
 url: "http://ShellyShulei.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/ShellyShulei/ShellyShulei.github.io.git" # you code repository
-
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
 
 # SNS settings
 RSS: false
@@ -23,6 +24,9 @@ github_username:    ShellyShulei
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
+
+
+
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -39,6 +43,7 @@ gems: [jekyll-paginate]
 
 
 
+
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
@@ -51,8 +56,10 @@ kramdown:
 
 
 # 评论系统
- Disqus（https://disqus.com/）
- disqus_username: ShellyShulei
+# Disqus（https://disqus.com/）
+disqus_username: ShellyShulei
+
+
 
 
 
@@ -65,7 +72,6 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
 
 
 
@@ -85,4 +91,3 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
-
