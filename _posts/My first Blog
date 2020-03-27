@@ -1,17 +1,19 @@
-
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:      My First Post 				# 标题 
-subtitle:   Hello World, Hello Blog #副标题
-date:       2020-03-27 				# 时间
-author:     GSL 						# 作者
-header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
+layout:     post
+title:      第一篇文章
+subtitle:   GSL Blog
+date:       2020-03-27
+author:     GSL
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:
     - Blog
 ---
 
-## Hey
->这是我的第一篇博客。
 
-这是我的第一篇Blog
+
+
+## 正文
+
+### 这是我的博客
+
