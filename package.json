@@ -1,12 +1,12 @@
 {
-    "name": "by-blog",
-    "title": "BY Blog",
-    "author": "BY <qiubaiyingios@163.com>",
+    "name": "GSL-blog",
+    "title": "GSL Blog",
+    "author": "GSL <15995213195@163.com>",
     "version": "1.7.0",
-    "homepage": "http://qiubaiying.github.io",
+    "homepage": "http://ShellyShulei.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/qiubaiying/qiubaiying.github.io"
+        "url": "https://github.com/ShellyShulei/ShellyShulei.github.io"
     },
     "bugs": "https://github.com/qiubaiying/qiubaiying.github.io/issues",
     "devDependencies": {
