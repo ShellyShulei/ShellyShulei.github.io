@@ -28,6 +28,10 @@ Here is an example of using recursion to determine a number's factorial:
 
 In this example, our factorialRecursive function calls itself repeatedly until theNumber equals 1. 
 
+#### Time and Space complexity of recursive function
+![mark](http://q8ehknbjo.bkt.gdipper.com/blog/20200415/v8E84QCQuuQJ.png?imageslim)
+
+
 ### Iteration
 In Java, iteration is a technique used to sequence through a block of code repeatedly until a specific condition either exists or no longer exists. Iterations are a very common approach used with loops.
 
