@@ -17,7 +17,7 @@ tags:
 ### Recursion
 Boil down a big problem to smaller ones(size n depends on size n-1,or n-2, or... n/2)
 #### Implementation
-1) Base Case: smallest problem to solve
+1) Base Case: smallest problem to solve <br>
 2) Recursion rule: how to make the problem smaller(if we can resolve same problem but with a smaller size, the what is left to do for the current problem size n)
 
 #### Factorial Example
