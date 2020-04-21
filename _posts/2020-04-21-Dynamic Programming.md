@@ -8,7 +8,7 @@ tags:
     - DP
 ---
 
-##Dynamic Programming
+## Dynamic Programming
 ### Fibonacci
 First, let us look at the fibonacci. As we all know, it can be solved in recursive method.
 ![mark](http://q8ehknbjo.bkt.gdipper.com/blog/20200421/r6OcVDu8llP8.png?imageslim)
