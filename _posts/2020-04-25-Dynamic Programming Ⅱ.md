@@ -23,34 +23,11 @@ Assumptions: array is not null and is not empty
 ##### Base case:<br>
 minJump[n-1] = 0 (n = array.length)
 ##### Induction rule:<br>
-minJump[i] represents the min number of steps to jump from the index i to the last element
+minJump[i] represents the min number of steps to jump from the index i to the last element<br>
 
-public class Solution {<br>
-  public int minJump(int[] array) {<br>
-    //Assumptions: array is not null and is not empty<br>
-    int length = array.length;<br>
-    int[] minJump = new int[length];<br>
-    minJump[length-1] = 0;<br>
-    for (int i = length-2; i >=0; i--) {<br>
-    //initialize, -1 represents cannot jump from the index i to the last element<br>
-      minJump[i] = -1;<br>
-      if(array[i] + i >= length -1) {<br>
-        minJump[i] =1;<br>
-      } else{<br>
-        int curMin = Integer.MAX_VALUE;<br>
-        for(int j = array[i]; j>=1; j--) {<br>
-          if (minJump[i+j] >0) {<br>
-            curMin = Math.min(curMin, minJump[i+j]);<br>
-          }<br>
-        }<br>
-        if (curMin < Integer.MAX_VALUE) {<br>
-          minJump[i] = curMin +1;<br>
-        }<br>
-      }<br>
-    }<br>
-    return minJump[0];<br>
-  }<br>
-}<br>
+ Assumptions: array is not null and is not empty<br>
+ minJump[i] = -1(initialize, -1 represents cannot jump from the index i to the last element)<br>
+ ![mark](http://q8ehknbjo.bkt.gdipper.com/blog/20200426/vycic8j4LFGe.png?imageslim)
 
 Time: O(n^2)<br>
 Space: O(n)
