@@ -1,15 +1,11 @@
 ---
 layout:     post
-title:      Objective-C：Category
-subtitle:   深入解析 Category 的实现原理
-date:       2016-12-21
-author:     BY
-header-img: img/post-bg-ios9-web.jpg
+title:      Sliding Window
+date:       2020-05-21
+author:     GSL
 catalog: true
 tags:
-    - Category
-    - iOS
-    - ObjC
+    - Sliding Window
 ---
 
 >本文转载自美图点评技术团队的：[深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html)，略有修改。
